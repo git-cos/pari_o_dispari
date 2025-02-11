@@ -59,10 +59,10 @@ function Giocata(){
         }
     }   
     if (sceltautente == "dispari"){
-        if (CalcolaPari(somma)==true){
+        if (CalcolaPari(somma)==false){
             alert("Hai vinto perche' inizialmente hai scelto "+sceltautente+". Tu hai giocato "+ numeroScelto+" e il computer ha giocato "+numeroComputer);
         }
-        else  {if (CalcolaPari(somma) == false)
+        else  {if (CalcolaPari(somma) == true)
             alert("Hai perso perche' inizialmente hai scelto "+sceltautente+". Tu hai giocato "+ numeroScelto+" e il computer ha giocato "+numeroComputer);
         }
     }   
